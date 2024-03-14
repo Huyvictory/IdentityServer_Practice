@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{D4225F90-26D0-473C-860E-88708FE91D02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{D4225F90-26D0-473C-860E-88708FE91D02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{A111B7A1-1D2F-4021-A623-FBBF9B5DC068}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "WebAPI\WebAPI.csproj", "{A111B7A1-1D2F-4021-A623-FBBF9B5DC068}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebClient", "WebClient\WebClient.csproj", "{B194FCF6-61B0-4B7C-B8BC-1D535BF0DB17}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A111B7A1-1D2F-4021-A623-FBBF9B5DC068}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A111B7A1-1D2F-4021-A623-FBBF9B5DC068}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A111B7A1-1D2F-4021-A623-FBBF9B5DC068}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B194FCF6-61B0-4B7C-B8BC-1D535BF0DB17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B194FCF6-61B0-4B7C-B8BC-1D535BF0DB17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B194FCF6-61B0-4B7C-B8BC-1D535BF0DB17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B194FCF6-61B0-4B7C-B8BC-1D535BF0DB17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
